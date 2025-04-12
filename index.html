@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirect Otomatis</title>
-    <script>
-        function redirectToLink() {
-            setTimeout(function() {
-                window.location.href = "https://www.mediafire.com/file/py1iv9aui5z66sd/Settings_Shortcut.apk/file";
-            }, 5000); // 5000ms for waiting the moment function right nw
-        }
-    </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Link Favoritku</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 15px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #0066cc;
+      font-size: 18px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-<body onload="redirectToLink()">
-    <h1>tunggu dalam yaa, mora akan mempersiapkan filenya 5 detik...</h1>
+<body>
+  <div class="container">
+    <h1>Link Favoritku</h1>
+    <ul>
+      <li><a href="https://www.mediafire.com/file/py1iv9aui5z66sd/Settings_Shortcut.apk/file" target="_blank">mediafire</a></li>
+      <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+      <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+    </ul>
+  </div>
 </body>
 </html>
